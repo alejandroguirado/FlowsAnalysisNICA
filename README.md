@@ -1,5 +1,11 @@
 # Flows-Analysis-NICA
-In relativistic heavy ion collisions the distribution in the overlap region of the colliding nuclei is affected by the pressure gradients created in the initial moment of collision, which can be characterized by the coefficients of Fourier expansion of azimuth distribution in momentum coordinates. In experimental particle physics, the capability to measure the event plane angle is very important. The event plane angle can be estimated via the azimuthal distributions of particles produced in the collision. This macros were made to measure this observables in simulations for NICA experiments.
+In relativistic heavy ion collisions the distribution in the overlap region of the colliding nuclei is affected by the pressure gradients created in the initial moment of collision, which can be characterized by the coefficients of Fourier expansion of azimuth distribution in momentum coordinates. In experimental particle physics, the capability to measure the event plane angle is very important. The event plane angle can be estimated via the azimuthal distributions of particles produced in the collision. This macros were made to measure this observables in simulations for NICA experiments. A brief description of the codes:
+
+* EventPlaneAngleDifWeights-> Using differents weights for the event plane angle standard method.
+* EventPlaneAnglePrimaryTracks-> Selecting all particles that are primary tracks.
+* EventPlaneAngleResolution-> After the event plane angle is calculated is possible to compare it with the real plane angle(Monte Carlo).
+
+
 
 
 
@@ -11,4 +17,5 @@ In relativistic heavy ion collisions the distribution in the overlap region of t
 
 
 In non-central collisions the shape of the interaction region depends on
-the impact parameter of the collision. If the impact parameter is zero, the shape of the interaction region is a sphere centered at the origin. But, if the impact parameter is not null, the interaction shape could be an ellipse creating an azimuthal transverse momentum distribution due the anisotropy of the reaction volume.  To characterize this phenomenon, it is used a Fourier expansion of the moment distribution with respect to the reaction plane. For example defining a quantity $r(\phi)$ which can be $dP_T$/d$\phi$ where $dP_T$ is the total transverse momentum of particles emitted at azimuthal angle $\phi$. Experimentally this function can be constructed by data, regarding to periodicity of the function $r(\phi)$ is possible to write it in the form of Fourier expansion.
+the impact parameter of the collision. If the impact parameter is zero, the shape of the interaction region is a sphere centered at the origin. But, if the impact parameter is not null, the interaction shape could be an ellipse creating an azimuthal transverse momentum distribution due the anisotropy of the reaction volume.  To characterize this phenomenon, it is used a Fourier expansion of the moment distribution with respect to the reaction plane. Experimentally this function can be constructed by data, regarding to periodicity of the function $r(\phi)$ is possible to write it in the form of Fourier expansion. 
+
