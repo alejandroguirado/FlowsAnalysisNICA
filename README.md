@@ -23,3 +23,6 @@ Solving for the event plane angle using Fourier analysis we get that the event p
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\Psi_n&space;=&space;\frac{1}{n}&space;Tan^{-1}\left[&space;\frac{&space;\sum_{i}^{N}&space;w^{i}cos(n\phi_i)&space;}{&space;\sum_{i}^{N}&space;w^{i}&space;sin(n\phi_i)}&space;\right]&space;\label{eq:eventplaneangle}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Psi_n&space;=&space;\frac{1}{n}&space;Tan^{-1}\left[&space;\frac{&space;\sum_{i}^{N}&space;w^{i}cos(n\phi_i)&space;}{&space;\sum_{i}^{N}&space;w^{i}&space;sin(n\phi_i)}&space;\right]&space;\label{eq:eventplaneangle}" title="\Psi_n = \frac{1}{n} Tan^{-1}\left[ \frac{ \sum_{i}^{N} w^{i}cos(n\phi_i) }{ \sum_{i}^{N} w^{i} sin(n\phi_i)} \right] \label{eq:eventplaneangle}" /></a>
 
+
+
+Here the weights(w) in the last equations are commonly used as the transverse momentum. Here, in the codes the weights are the energy loss per cell and the multiplcity for BeBe detector of NICA collaboration. 
