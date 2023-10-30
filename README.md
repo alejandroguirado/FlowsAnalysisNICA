@@ -1,5 +1,3 @@
-
-This is my [random value] located somewhere in my Markdown document.
 # Flows-Analysis-NICA
 In relativistic heavy ion collisions the distribution in the overlap region of the colliding nuclei is affected by the pressure gradients created in the initial moment of collision, which can be characterized by the coefficients of Fourier expansion of azimuth distribution in momentum coordinates. In experimental particle physics, the capability to measure the event plane angle is very important. The event plane angle can be estimated via the azimuthal distributions of particles produced in the collision. This macros were made to measure this observables in simulations for NICA experiments. A brief description of the codes:
 
